@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* Seletor Global * - serve para selecionar todos os elementos */
+/* Reset de estilos padrões do navegador */
+* {
+    margin: 0;
+    /* padding: 0; */
+
+    /* list style - muda as bolinhas das listas */
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #141414;
+}
+
+main {
+    background-color: #1F1F1F;
+}
