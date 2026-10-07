@@ -24,12 +24,16 @@
 /* Reset de estilos padrões do navegador */
 * {
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
 
     /* list style - muda as bolinhas das listas */
     list-style: none;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+html, body {
+    height: 100%;
 }
 
 body {
@@ -40,6 +44,9 @@ body {
 main {
     height: 100%;
     width: 100%;
+
+    display: grid;
+    place-items: center;
 }
 
 section {
@@ -47,7 +54,7 @@ section {
     width: 100%;
     max-width: 320px;
     border-radius: 16px;
-    padding: 20px;
+    padding: 24px;
 
     text-align: center;
 }
@@ -78,8 +85,13 @@ p {
     margin-bottom: 28px;
 }
 
+
 li {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
+}
+
+li:last-child{
+    margin-bottom: 0;
 }
 
 a {
